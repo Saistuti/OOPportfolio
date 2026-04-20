@@ -115,7 +115,7 @@ System.out.println ("An Emergency Broadcast");
 C:\Users\Student\Desktop\OOPS\Weekly Assignments\Week1\src\Test.
 java: class test is public, should be declared in a file named test.java
 
-
+---
 
 
 
@@ -147,6 +147,7 @@ An emergency Broadcast
 
 Process finished with exit code 0
 
+---
 
 
 
@@ -179,6 +180,7 @@ System.out.println (An Emergency Broadcast");
 C:\Users\Student\Desktop\OOPS\Weekly Assignments\Week1\src\Test.java:4:35
 java: ')' or ',' expected
 
+---
 
 
 
@@ -210,6 +212,7 @@ System.out.println ("An Emergency Broadcast");
 Error: Main method not found in class HelloWorld, please define the main method as:
 public static void main(String[] args)
 
+---
 
 
 
@@ -243,7 +246,7 @@ java: cannot find symbol
 symbol:   method bogus(java.lang.String)
 location: variable out of type java.io.PrintStream
 
-
+---
 
 
 
@@ -274,7 +277,7 @@ System.out.println ("An Emergency Broadcast")
 C:\Users\Student\Desktop\OOPS\Weekly Assignments\Week1\src\Test.java:4:58
 java: ';' expected
 
-
+---
 
 
 
