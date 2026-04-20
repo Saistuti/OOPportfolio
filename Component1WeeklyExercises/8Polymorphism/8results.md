@@ -26,9 +26,6 @@ public class Staff
 {
 private StaffMember[] staffList;
 
-    //-----------------------------------------------------------------
-    //  Constructor: Sets up the list of staff members.
-    //-----------------------------------------------------------------
     public Staff ()
     {
         staffList = new StaffMember[6];
@@ -54,9 +51,7 @@ private StaffMember[] staffList;
         ((Hourly)staffList[3]).addHours(40);
     }
 
-    //-----------------------------------------------------------------
     //  Pays all staff members.
-    //-----------------------------------------------------------------
     public void payday()
     {
         double amount;
@@ -89,10 +84,7 @@ protected String name;
 protected String address;
 protected String phone;
 
-    //-----------------------------------------------------------------
-    //  Constructor: Sets up this staff member using the specified
-    //  information.
-    //-----------------------------------------------------------------
+
     public StaffMember(String eName, String eAddress, String ePhone)
     {
         name = eName;
@@ -100,9 +92,8 @@ protected String phone;
         phone = ePhone;
     }
 
-    //-----------------------------------------------------------------
+ 
     //  Returns a string including the basic employee information.
-    //-----------------------------------------------------------------
     public String toString()
     {
         String result = "Name: " + name + "\n";
@@ -128,10 +119,6 @@ public class Employee extends StaffMember
 protected String socialSecurityNumber;
 protected double payRate;
 
-    //-----------------------------------------------------------------
-    //  Constructor: Sets up this employee with the specified
-    //  information.
-    //-----------------------------------------------------------------
     public Employee(String eName, String eAddress, String ePhone,
                     String socSecNumber, double rate)
     {
@@ -141,9 +128,8 @@ protected double payRate;
         payRate = rate;
     }
 
-    //-----------------------------------------------------------------
+
     //  Returns information about an employee as a string.
-    //-----------------------------------------------------------------
     public String toString()
     {
         String result = super.toString();
@@ -153,9 +139,8 @@ protected double payRate;
         return result;
     }
 
-    //-----------------------------------------------------------------
+
     //  Returns the pay rate for this employee.
-    //-----------------------------------------------------------------
     public double pay()
     {
         return payRate;
@@ -171,10 +156,7 @@ public class Executive extends Employee
 {
 private double bonus;
 
-    //-----------------------------------------------------------------
-    //  Constructor: Sets up this executive with the specified
-    //  information.
-    //-----------------------------------------------------------------
+   
     public Executive(String eName, String eAddress, String ePhone,
                      String socSecNumber, double rate)
     {
@@ -183,18 +165,15 @@ private double bonus;
         bonus = 0;  // bonus has yet to be awarded
     }
 
-    //-----------------------------------------------------------------
+
     //  Awards the specified bonus to this executive.
-    //-----------------------------------------------------------------
     public void awardBonus(double execBonus)
     {
         bonus = execBonus;
     }
 
-    //-----------------------------------------------------------------
-    //  Computes and returns the pay for an executive, which is the
-    //  regular employee payment plus a one-time bonus.
-    //-----------------------------------------------------------------
+
+    //  Computes and returns the pay for an executive
     public double pay()
     {
         double payment = super.pay() + bonus;
@@ -212,9 +191,7 @@ private double bonus;
 ```
 public class Firm
 {
-//-----------------------------------------------------------------
-//  Creates a staff of employees for a firm and pays them.
-//-----------------------------------------------------------------
+
 public static void main(String[] args)
 {
 Staff personnel = new Staff();
@@ -229,10 +206,7 @@ public class Hourly extends Employee
 {
 private int hoursWorked;
 
-    //-----------------------------------------------------------------
-    //  Constructor: Sets up this hourly employee using the specified
-    //  information.
-    //-----------------------------------------------------------------
+
     public Hourly(String eName, String eAddress, String ePhone,
                   String socSecNumber, double rate)
     {
@@ -241,18 +215,17 @@ private int hoursWorked;
         hoursWorked = 0;
     }
 
-    //-----------------------------------------------------------------
+
     //  Adds the specified number of hours to this employee's
     //  accumulated hours.
-    //-----------------------------------------------------------------
+
     public void addHours(int moreHours)
     {
         hoursWorked += moreHours;
     }
 
-    //-----------------------------------------------------------------
+
     //  Computes and returns the pay for this hourly employee.
-    //-----------------------------------------------------------------
     public double pay()
     {
         double payment = payRate * hoursWorked;
@@ -262,9 +235,8 @@ private int hoursWorked;
         return payment;
     }
 
-    //-----------------------------------------------------------------
+
     //  Returns information about this hourly employee as a string.
-    //-----------------------------------------------------------------
     public String toString()
     {
         String result = super.toString();
@@ -282,18 +254,14 @@ private int hoursWorked;
 ```
 public class Volunteer extends StaffMember
 {
-//-----------------------------------------------------------------
-//  Constructor: Sets up this volunteer using the specified
-//  information.
-//-----------------------------------------------------------------
+
 public Volunteer(String eName, String eAddress, String ePhone)
 {
 super(eName, eAddress, ePhone);
 }
 
-    //-----------------------------------------------------------------
+
     //  Returns a zero pay value for this volunteer.
-    //-----------------------------------------------------------------
     public double pay()
     {
         return 0.0;
@@ -395,9 +363,7 @@ encryption for Password, other than the Caesar cipher used by Secret.
 ```
 public class SecretTest
 {
-//-----------------------------------------------------------------
-//  Creates a Secret object and exercises its encryption.
-//-----------------------------------------------------------------
+
 public static void main(String[] args)
 {
 Secret hush = new Secret("I love Superman!");
@@ -418,9 +384,9 @@ public interface Encryptable
 public void encrypt();
 public String decrypt();
 }
-
+```
 // Secret subclass
-
+```
 import java.util.Random;
 
 public class Secret implements Encryptable
@@ -430,10 +396,6 @@ private boolean encrypted;
 private int shift;
 private Random generator;
 
-    //-----------------------------------------------------------------
-    //  Constructor: Stores the original message and establishes
-    //  a value for the encryption shift.
-    //-----------------------------------------------------------------
     public Secret(String msg)
     {
         message = msg;
@@ -442,10 +404,8 @@ private Random generator;
         shift = generator.nextInt(10) + 5;
     }
 
-    //-----------------------------------------------------------------
-    //  Encrypts this secret using a Caesar cipher. Has no effect if
-    //  this secret is already encrypted.
-    //-----------------------------------------------------------------
+
+    //  Encrypts this secret using a Caesar cipher.
     public void encrypt()
     {
         if (!encrypted)
@@ -458,10 +418,8 @@ private Random generator;
         }
     }
 
-    //-----------------------------------------------------------------
-    //  Decrypts and returns this secret. Has no effect if this
-    //  secret is not currently encrypted.
-    //-----------------------------------------------------------------
+    
+    //  Decrypts and returns this secret.
     public String decrypt()
     {
         if (encrypted)
@@ -476,17 +434,14 @@ private Random generator;
         return message;
     }
 
-    //-----------------------------------------------------------------
     //  Returns true if this secret is currently encrypted.
-    //-----------------------------------------------------------------
     public boolean isEncrypted()
     {
         return encrypted;
     }
 
-    //-----------------------------------------------------------------
+
     //  Returns this secret (may be encrypted).
-    //-----------------------------------------------------------------
     public String toString()
     {
         return message;
