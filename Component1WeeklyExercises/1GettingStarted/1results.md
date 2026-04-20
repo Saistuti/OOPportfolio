@@ -50,7 +50,7 @@ Hello World
 
 
 
-**2 - “Test”. Create a project, enter, compile and run the following application.
+2 - “Test”. Create a project, enter, compile and run the following application.
 public class Test
 
 {
@@ -87,7 +87,7 @@ Now go to README.md and change "1 Hello World -- to do" to "1 Hello World
 -- completed on time".
 Commit your code to your. Give it a sensible comment, such as "Exercise 1 done".
 (You should do this for all of your exercises, but it won't be stated here anymore)
-(2 marks)**
+(2 marks)
 
 
 // a. Change Test to test.
@@ -397,14 +397,14 @@ Process finished with exit code 0
 
 
 
-**5 -If you complete the exercises above, answer the following questions.
+5 -If you complete the exercises above, answer the following questions.
 
 a. What is the latest version of the Java SDK that is available?\
 b. What is the difference between Java SE and Java ME?\
 c. Which operating system is Java available for?\
 d. Give some other IDEs for Java apart from Eclipse nd IntelliJ?\
 e. What is the main() function for in a Java program?
-(3 marks)**
+(3 marks)
 
 
 a. What is the latest version of the Java SDK that is available?\
