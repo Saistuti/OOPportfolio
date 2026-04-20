@@ -113,7 +113,7 @@ Sphere [Diameter = 5.0, Volume = 65.4498, Surface Area = 78.5398]
 
 Sphere [Diameter = 8.0, Volume = 268.0826, Surface Area = 201.0619]
 
-
+----
 
 Updated Spheres:
 
@@ -255,7 +255,7 @@ Publisher: HarperCollins
 
 Copyright Date: 1988
 
-
+---
 
 Updated Books:
 
@@ -365,7 +365,7 @@ Bulb 2: Bulb is OFF
 
 Bulb 3: Bulb is ON
 
-
+---
 
 After turning off Bulb 1:
 
@@ -465,7 +465,7 @@ Account Number: 1002
 
 Balance: 0.0
 
-
+----
 
 After Transactions:
 
