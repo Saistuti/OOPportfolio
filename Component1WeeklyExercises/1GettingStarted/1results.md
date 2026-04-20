@@ -46,6 +46,10 @@ Hello World
 
 
 
+
+
+
+
 2 -\ “Test”. Create a project, enter, compile and run the following application.
 public class Test
 
@@ -86,6 +90,8 @@ Commit your code to your. Give it a sensible comment, such as "Exercise 1 done".
 (2 marks)
 
 
+
+
 // a. Change Test to test.
 
 
@@ -112,6 +118,9 @@ System.out.println ("An Emergency Broadcast");
 ---
 C:\Users\Student\Desktop\OOPS\Weekly Assignments\Week1\src\Test.
 java: class test is public, should be declared in a file named test.java
+
+
+
 
 
 
@@ -144,6 +153,10 @@ Process finished with exit code 0
 
 
 
+
+
+
+
 // c. Remove the first quotation mark in the string.
 
 public class Test
@@ -172,6 +185,9 @@ java: ')' or ',' expected
 
 
 
+
+
+
 // d. Change main to man.
 
 public class Test
@@ -197,6 +213,9 @@ System.out.println ("An Emergency Broadcast");
 ---
 Error: Main method not found in class HelloWorld, please define the main method as:
 public static void main(String[] args)
+
+
+
 
 
 
@@ -230,6 +249,9 @@ location: variable out of type java.io.PrintStream
 
 
 
+
+
+
 // f. Remove the semicolon at the end of the println statement.
 
 public class Test
@@ -258,6 +280,8 @@ java: ';' expected
 
 
 
+
+
 // g. Remove the last brace in the program.
 
 public class Test
@@ -281,6 +305,8 @@ System.out.println ("An Emergency Broadcast");
 ---
 C:\Users\Student\Desktop\OOPS\Weekly Assignments\Week1\src\Test.java:5:10
 java: reached end of file while parsing
+
+
 
 
 
@@ -325,6 +351,9 @@ Email: mayajohns@gmail.com
 
 
 
+
+
+
 4 -\ Write and application that prints the following diamond shape. Don’t print any unneeded characters.
 
    *
@@ -363,6 +392,10 @@ public static void main (String[] args) {
    *
 
 Process finished with exit code 0
+
+
+
+
 
 
 
