@@ -71,7 +71,7 @@ Leeds Beckett University contains 24 characters.
 
 The final string is Leeds Beckett UniversityAnytown, UK
 
-
+---------------------------------------------------------
 **2 - Write a program that simulates rolling two dice using the following steps:
 1.Prompt the user for the number of sides for two dice.
 2. “Roll” the dice three times by generating a random number between 1 (inclusive) and the number of sides (inclusive).
@@ -179,7 +179,7 @@ Dice 1 rolled a total of 14 and rolled 4.666666666666667 on average.
 
 Dice 2 rolled a total of 12 and rolled 4.0 on average.
 
-
+---------------------------------------------------------
 
 **3 - Write a block of source code to encrypt a four digit pin number by doing the
 following:
@@ -235,7 +235,7 @@ Enter a 4 digit pin number to encrypt: 5093
 
 Your encrypted pin number is f1ec13e5c15.
 
-
+---------------------------------------------------------
 **4 - Write and application that reads the radius of a sphere and prints its volume and
 surface area. Use the following formulas, where r represents the radius of the sphere.
 Print the output to four decimal places.
