@@ -113,7 +113,7 @@ Amount of your raise: $2,000.00
 
 Your new salary: $52,000.00
 
-
+-------------------------------------------------
 
 
 **2 -  Program Rock.java contains a skeleton for the game Rock, Paper, Scissors. Add
@@ -208,7 +208,7 @@ Computer plays: S
 
 Rock crushes scissors. You win!!
 
-
+-------------------------------------------------
 
 
 **3 -  Write a small program that prompts the user for a sentence and then outputs the same
@@ -252,7 +252,7 @@ hello, I am a student
 
 Reversed sentence: ,olleh I ma a tneduts
 
-
+-------------------------------------------------
 
 **4 -  Design and implement a program that counts the number of punctuation marks in the
 following string “Mary had a little lamb, her fleece was as white as snow, and
