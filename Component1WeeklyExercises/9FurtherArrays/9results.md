@@ -1,6 +1,7 @@
 # 9 Further Arrays
 15 marks
 **to be committed to GitHub by 20th April**
+
 1 Histogram -- complete
 
 2 LL Bank Accounts -- complete
@@ -521,6 +522,7 @@ Type 'exit' to stop input.
 Joe	Bill	223344
 
 exit
+
 ---
 --- List of Individuals ---
 
