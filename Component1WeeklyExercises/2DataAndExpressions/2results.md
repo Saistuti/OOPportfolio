@@ -3,9 +3,13 @@
 **to be committed to GitHub by 16th February**
 
 1 Table of Student Grades  -- complete  
+
 2 Computing Averages      -- complete  
+
 3 Miles to Kilometers -- complete 
+
 4 Square Calculations   -- complete  
+
 5 Fraction   -- complete  
 
 Please replace **todo** with **complete** when done.
