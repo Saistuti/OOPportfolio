@@ -122,8 +122,11 @@ public static void main(String[] args) {
 ```
 ---
 Doctor Ram Emp# 101 specializes in Cardiology
+
 Nurse Sita Emp# 102 has 5 patients
+
 Receptionist John Emp# 103 is handling appointments
+
 Cleaner Alice Emp# 104 of Emergency is sweeping
 
 ---------------------------------------------------------
@@ -244,10 +247,17 @@ public static void main(String[] args) {
 ```
 ---
 Player: Messi, Age: 36, Matches: 1000
+
 Football Player Messi scored 800 goals and made 350 assists
 
+
+
 Player: Kohli, Age: 35, Matches: 500
+
 Cricket Player Kohli has 25000 runs and 10 wickets
 
+
+
 Player: Froome, Age: 38, Matches: 200
+
 Cyclist Froome won 45 races with avg speed 40.5 km/h
