@@ -3,10 +3,15 @@
 **to be committed to GitHub by 23rd February**
 
 1 Computing A Pay Increase -- complete  
+
 2 Rock, Paper, Scissors  -- complete
+
 3 String Reverser -- complete
+
 4 Punctuation Marks -- complete  
+
 Please replace **todo** with **complete** when done.
+
 Record your progress on the OOP Form on README.md.
 ---
 
