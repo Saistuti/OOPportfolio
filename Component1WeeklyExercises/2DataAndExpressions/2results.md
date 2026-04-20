@@ -43,8 +43,8 @@ The requirements for the program are as follows:
    for addition and string concatenation.
 3. Make up your own student names and points—the ones shown are just for illustration
    purposes. You need 5 names.
-(2 marks)
 
+```
 public class question_1 {
 
         public static void main(String[] args) {
@@ -101,7 +101,7 @@ public class question_1 {
             System.out.println(name5 + "\t\t" + lab5 + "\t\t" + bonus5 + "\t\t\t" + total5);
         }
 }
-
+```
 ---
 ///////////////////////\\\\\\\\\\\\\\
      == Student Points ==
@@ -122,7 +122,7 @@ John		 50		  7			57
 Jake		 42		  6			48
 
 
-
+---------------------------------------------------------
 
 **2 - The following program reads three integers and prints the average. Fill in the blanks
 so that it will work correctly. (2 marks)**
@@ -197,12 +197,13 @@ Enter the third value: 40
 
 The average is 19.666666666666668.
 
-
+---------------------------------------------------------
 
 **3 -  Write an application that converts miles to kilometers.(One mile equals 1.60935 km).
 Read the miles from the user as a floating point value.
 (2 marks)**
 
+```
 import java.util.Scanner;
 public class question_3 {
 public static void main(String[] args){
@@ -220,7 +221,7 @@ double kilometers;
         System.out.println(miles + " miles is equal to " + kilometers + " kilometers.");
     }
 }
-
+```
 ---
 
 Enter the distance in miles:
@@ -229,12 +230,12 @@ Enter the distance in miles:
 
 54.0 miles is equal to 86.9049 kilometers.
 
-
+---------------------------------------------------------
 
 **4 -  Write an application that prompts for and reads integer representing the length of a
 square’s side, then prints the square’s perimeter and area.
 (2 marks)**
-
+```
 import java.util.Scanner;
 public class question_4 {
 public static void main(String[] args){
@@ -255,7 +256,7 @@ int area;
         System.out.println("Area of the square: " + area);
     }
 }
-
+```
 ---
 
 Enter the length of the square's side:
@@ -266,12 +267,12 @@ Perimeter of the square: 32
 
 Area of the square: 64
 
-
+---------------------------------------------------------
 
 **5 -  Write an application that prompts and reads the numerator and denominator of a
 fraction as integers and then prints the decimal equivalent of the fraction.
 (3 marks)**
-
+ ```
 import java.util.Scanner;
 public class question_5 {
 public static void main(String[] args){
@@ -294,7 +295,7 @@ public static void main(String[] args){
         System.out.println("The decimal equivalent is: " + decimalValue);
     }
 }
-
+```
 ---
 
 Enter the numerator:
