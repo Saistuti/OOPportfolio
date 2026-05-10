@@ -1,8 +1,8 @@
 
 # OOP Portfolio
-## Your Name
-### Your Group
-### Your Tutor
+## Sai Stuti Subedi
+### BSc. Hons (Computing)
+### Sanjesh Rimal
 
 
 Results for each exercise must be documented in results.md is the relevant directory,
